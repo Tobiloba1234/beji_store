@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    background-color: transparent;
+    height:100vh;
+    line-height:2;
+    background: #fffeef;
+    color:#af0e2f;
+    font-family:'nunito','Times New Roman', Times, serif;
+    font-weight:400px;
+}
+
+h1,h2,h3{
+    font-family: 'oswald',sans-serif;
+    font-weight:700;
+}
+
+
+h2{
+    font-size:2em;
+}
+li{
+    font-size: 1.125rem;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:#fffeef;
+}
+nav,.red-bg{
+    padding:1em;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0% 1em;
+    background: #af0e2f;
+    color:#fffeef;
+    
+}
+
+
+.logo-icon{
+    font-size: 2rem;
+
+}
+
+
+.nav-items{
+    position:absolute;
+    top:50px;
+    right:10px;
+    z-index:2;
+   
+}
+
+.menu-content{
+  cursor:pointer;
+
+}
+
+.menu-item{
+    display:none;
+}
+/* Display the menu items */
+
+.show-nav{
+    display:block;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  max-width:800px;
+  height:100%;
+  margin:0 auto;
+  border:2px solid pink;
+  border-radius:50px;
+  padding:2em 2em;
+}
+
+.red-bg,
+.pinkred-bg ,
+.redgradient-bg,
+.contact-bg{
+    padding:3em 1em;
+    height:fit-content;
+   
+}
+
+.red-bg{
+    background:#af0e2f;
+    background-image: url("images/Happy\ Summer\ GIF\ by\ The\ Coca-Cola\ Company\ South\ East\ Africa.gif");
+    background-position: -99999;
+    background-size:cover;
+    background-blend-mode:multiply;
+    height:500px;
+    color:#fffeef;  
+}
+
+
+.btn {
+    padding:.5em 3em;
+    translate: 3s ease-in-out;
+    text-transform: uppercase;
+    
+}
+
+.btn-link{
+    text-decoration: none;
+    color:#fffeef;
+    background-color: black;
+    border-radius:4px;
+    opacity:0.7; 
+    margin-top:1.5em;
+    margin-bottom:1em;
+}
+
+.btn:hover{
+    background-color: #af0e2f;
+    color:aliceblue;
+}
+
+.header-title{
+    text-align: center;
+    font-size: 2em;
+}
+.header-subheading{
+    text-align: center;
+    border:2px solid #faf9e5;
+    border-radius:70px;
+    padding:0 1em;
+    margin:.5em;
+    width:380px;
+}
+
+/* Products Section */
+
+.pinkred-bg{
+    background: #fee4c9;
+    
+}
+
+.product-heading{
+    color:#980106;
+    margin-bottom:0;
+   
+}
+.product-contents{
+    padding: .7em 0;
+}
+
+.product-title{
+    text-align: center;
+    padding:.5em;
+    
+}
+
+.redgradient-bg{
+    background: linear-gradient(to right, #af0e2f, #ee001e);
+    height:fit-content;
+    color:#fffeef;
+}
+
+.about-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1.5em 0;
+}
+
+
+/* Contact form */
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.form-input,
+textarea,
+.submit-btn{
+    border:1px solid #af0e2f;
+    border-radius:4px;
+}
+
+
+.form-input{
+width: 100%;
+padding:1em ;
+margin:1em 0;
+
+}
+
+textarea{
+   width:100%;
+  
+}
+
+.submit-btn{
+    color:#980106;
+    background:white;
+    border:1px solid #980106;
+    padding:0;
+    margin-top:1em;
+    width:100%;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background:#fee4c9;
+    padding:3em .7em 0 .7em;
+}
+
+.footer-content{
+    
+    border:  thick double #af0e2f;
+}
+.footer-heading,.loc-section{
+    text-align:center;
+    margin:.5em;
+    padding:0;
+}
+
+
+.fa-brands{
+   color: #ee001e;
+   margin-right:1.2em;
+   margin-left:1.2em;
+   font-size:1.3rem;
+   border-radius:50px;
+}
+
+.social-media-icons{
+    margin-top:1em;
+}
+
+.fa-brands:hover,
+.fa-brands:focus{
+     color:green;
+}
+
+
+.copyright{
+    color:#f3617e;
+    margin-top:2em;
+}
+
+@media(min-width:700px){
+    h2{
+        font-size:2.25em;
+    }
+
+    h3{
+        font-size:1.125em;
+    }
+
+    .footer-content{
+        border-top-color: #af0e2f;
+        border-left: #f3617e;
+        border-right: #af0e2f;
+        border-bottom-color: #af0e2f;
+         
+    }
+}
