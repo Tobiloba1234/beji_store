@@ -10,7 +10,8 @@ body{
     height:100vh;
     line-height:2;
     background: #fffeef;
-    color:#af0e2f;
+    color:gold;
+    /* color:#af0e2f; */
     font-family:'nunito','Times New Roman', Times, serif;
     font-weight:400px;
 }
